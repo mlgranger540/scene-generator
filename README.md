@@ -8,11 +8,13 @@ The scene generator is a Jupyter Notebook file written in Python.
 
 To run the notebook file online, you will need to use MyBinder by following [this link](https://mybinder.org/v2/gh/mlgranger540/scene-generator/HEAD?urlpath=%2Fdoc%2Ftree%2Fscene_generator.ipynb). This will then create an interactive environment where you can view and run the code!
 
-To run, press the play button in the top bar. It will then ask you provide the names of the characters you want to use in the scene ideas. Simply type these in one at a time and press enter after each one. The minimum number of names required is **3** (**important: it will not work if you provide less than 3 as one of the prompts requires 3 different names!**) and the maximum is **6**.
+It will take moment for MyBinder to build the notebook. Once it loads, you can ignore what's there (it will come with set prompt ideas using my characters at the bottom as that's how it is saved into GitHub lol). Just press the play button in the top bar to run the code.
+
+It will then ask you provide the names of the characters you want to use in your scene ideas. Simply type these in one at a time and press enter after each one. The minimum number of names required is **3** (**important: it will not work if you provide less than 3 as one of the prompts requires 3 different names!**) and the maximum is **6**.
 
 The code works by randomising the names provided by the user with different words/phrases contained in the CSV file. These include actions a character or characters might take, reasons why something happened, items characters might use and how they might use them, and conversation topics characters could have with each other. I will continue to add more to these as I think of them!
 
-The resulting output is a series of statements using the user's character names to create random ideas for scenes involving those characters!
+The resulting output is a series of statements using the inputted character names to create random ideas for scenes involving those characters!
 
 ### Output
 
@@ -29,5 +31,6 @@ After this the code will print a list of all the entries in each column of the C
 
 ---
 
-<br>
+### That's Pretty Much It!
+
 I hope this proves useful for other writers! Wishing you all many fun ideas and lots of words :)
