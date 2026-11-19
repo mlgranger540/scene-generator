@@ -6,7 +6,7 @@ This is a simple random scene idea generator I've created for writers like mysel
 
 The scene generator is a Jupyter Notebook file written in Python. When the code is run using `Run All`, it will ask for text input - these are the character names you want to use in the scene ideas. The minimum number of names required is **3** and the maximum is **6**.
 
-To render the file from GitHub, you will need to use [nbviewer](https://nbviewer.org/) and enter the location of the file on GitHub: **mlgranger/scene-generator**.
+To render the file from GitHub, you will need to use [mybinder](https://mybinder.org/) and enter the location of the file on GitHub: **mlgranger/scene-generator**.
 
 The code works by randomising the names provided by the user with different words/phrases contained in the CSV file. These include actions a character or characters might take, reasons why something happened, items characters might use and how they might use them, and conversation topics characters could have with each other. I will continue to add more to these as I think of them!
 
